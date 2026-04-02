@@ -3,7 +3,7 @@ import java.util.List;
 
 public class StudentView {
     public void displayStudent(List<String> students) {
-        System.out.println("=== LISTADO DE ESTUDIANTES ===");
+        System.out.println("LISTADO DE ESTUDIANTES");
         for (String student : students) {
             System.out.println("Estudiante: " + student);
         }
